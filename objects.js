@@ -8,9 +8,6 @@ obj[artist] = song
  return obj
 }
 
-var playlist = new Object({ Cher: 'Do You Believe In Love After Love'})
- 
-
 function removeFromPlaylist (obj, artist) 
 {
 
