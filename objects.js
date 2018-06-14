@@ -1,5 +1,5 @@
 
-var playlist = new Object({ Sia: 'I\'m alive'})
+var playlist = new Object({ Will Smith: 'Gettin Jiggy With It'})
 
 function updatePlaylist(obj, name, title ) 
 {
