@@ -1,10 +1,10 @@
 
-var playlist = new Object({ artistName: songTitle })
+var playlist = new Object({ Cher: 'Do You Believe In Love After Love'})
 
-function updatePlaylist(obj, artistName, songTitle ) 
+function updatePlaylist(obj, name, title ) 
 {
  return 
- Object.assign({}, obj, {[artistName]:songTitle})
+ Object.assign({}, obj, {[name]:title})
 }
 
 function removeFromPlaylist (obj, name) 
