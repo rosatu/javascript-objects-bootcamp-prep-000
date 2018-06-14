@@ -1,4 +1,6 @@
-var playlist = { Sia: 'I\'m alive'}
+var playlist = new Object()
+
+var playlist = new Object({ Sia: 'I\'m alive'})
 
 function updatePlaylist(obj, name, title ) 
 {
