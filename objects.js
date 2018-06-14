@@ -11,6 +11,6 @@ obj[artist] = song
 function removeFromPlaylist (obj, artist) 
 {
  delete obj.artist
-if true
+
  return obj
 }
