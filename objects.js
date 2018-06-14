@@ -1,11 +1,10 @@
-var playlist = new Object()
 
 var playlist = new Object({ Sia: 'I\'m alive'})
 
-function updatePlaylist(playlist, name, title ) 
+function updatePlaylist(obj, name, title ) 
 {
  return 
- Object.assign({}, playlist, {[name]:title})
+ Object.assign({}, obj, {[name]:title})
 }
 
 function removeFromPlaylist (obj, name) 
