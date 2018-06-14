@@ -14,9 +14,8 @@ var playlist = new Object({ Cher: 'Do You Believe In Love After Love'})
 function removeFromPlaylist (obj, artist) 
 {
 
-if 
-{delete obj.artist = true}
+delete obj.artist
 
-return obj
+return [obj]
 
 }
