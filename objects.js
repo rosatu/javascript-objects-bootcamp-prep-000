@@ -3,7 +3,7 @@ var playlist = new Object({ Cher: 'Do You Believe In Love After Love'})
 
 function updatePlaylist(obj, artist, song) 
 {
-Object.assign(playlist, { artist: [title] })
+Object.assign(playlist, { artist: song })
  return playlist
 }
 
