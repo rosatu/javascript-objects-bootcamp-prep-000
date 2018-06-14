@@ -13,7 +13,6 @@ var playlist = new Object({ Cher: 'Do You Believe In Love After Love'})
 
 function removeFromPlaylist (Object, artist) {
 
-delete Object.artist = true
+delete Object.artist 
 
-return Object 
 }
