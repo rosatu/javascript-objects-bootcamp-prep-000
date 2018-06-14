@@ -16,6 +16,5 @@ function removeFromPlaylist (obj, artist)
 
 delete obj.artist
 
-return [obj]
-
+return obj
 }
