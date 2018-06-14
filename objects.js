@@ -12,5 +12,5 @@ function removeFromPlaylist (obj, name)
 {
  delete obj.name
 
- return object
+ return obj
 }
