@@ -1,5 +1,5 @@
 
-var playlist = new Object({ Cher: 'Do You Believe In Love After Love'})
+var playlist = new Object({ artist: 'song title'})
 
 function updatePlaylist(obj, artist, song) 
 {
